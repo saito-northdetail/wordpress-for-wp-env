@@ -1,0 +1,25 @@
+{
+  "core": "https://ja.wordpress.org/wordpress-6.0.2-ja.zip",
+  "phpVersion": "7.4",
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/query-monitor.3.7.1.zip"
+  ],
+  "themes": [
+    "https://downloads.wordpress.org/theme/twentytwentytwo.1.2.zip"
+  ],
+  "port": 8080,
+  "env": {
+    "tests": {
+      "port": 8888
+    }
+  },
+  "config": {
+    "WP_DEBUG": true
+  },
+  "mappings": {
+    "wp-content/themes": "./themes",
+    "wp-content/plugins": "./plugins",
+    "wp-content/uploads": "./uploads",
+    "sql": "./sql"  
+  }
+}

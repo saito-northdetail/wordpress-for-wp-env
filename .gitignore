@@ -1,0 +1,8 @@
+node_modules/
+wp-content/*
+plugins/*
+uploads/*
+themes/*
+sql/*
+.DS_Store
+!.gitkeep
